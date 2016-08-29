@@ -26,3 +26,31 @@ Windows RT, Windows Phone 8, Silverlight 5, Xamarin iOS, Xamarin Android and
 Mono. More information on how to use can be found at the following link.
 
 http://msdn.microsoft.com/en-us/library/vstudio/gg597391(v=vs.100).aspx
+
+BeMyGuestAPIV1PCL - 中文版说明
+==============================
+这个API SDK 是由APIMATIC V2.0自动产生
+
+如何设置:
+========
+这个生成的代码需要与你的API中的用户权限进行配置。
+请打开文件“ Configuration.cs ”后， 更改默认配置。
+
+如何建立工程: 
+============
+这个生成的代码使用了多项NuGet Packages 例如, Newtonsoft.Json, UniRest。
+这几项功能已经加入在packages.config的文件里。
+如果NuGet package的自动恢复功能被启动， 这些相关的功能会自动被安装。
+所以， 你必须连接到互联网操作。
+
+    1. 解压缩的下载文件
+    2. 打开solution (*.sln)文件.
+    3. 通过"F6"键调用生成过程或 "CTL+LSHIFT+B" 捷径
+
+如何使用:
+========
+这个生成过程会产生一个可移植类库（portable class library）。这个新产生的 library 库可用于
+Windows Forms,Windows RT, Windows Phone 8, Silverlight 5, Xamarin iOS, Xamarin Android 和
+Mono。 请参阅以下的链接， 可以得到关于如何使用的更多信息
+
+http://msdn.microsoft.com/en-us/library/vstudio/gg597391(v=vs.100).aspx
